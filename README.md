@@ -94,7 +94,7 @@ TASK
 > Memory Risk.
  
 #
-Recurrence Relation : $ T(n) = 2T(n/2) + k $
+Recurrence Relation : This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$
 Algorithm:
 ```
 #include <iostream>
