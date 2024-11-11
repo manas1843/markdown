@@ -61,10 +61,11 @@ int search(int array[], int n, int x)
 >In a binary search, however, cut down your search to half as soon as you find the middle of a sorted list. The middle element is looked at to check if it is greater than or less than the value to be searched. Accordingly, a search is done to either half of the given list.[^1]
 >
 
-Time Complexity : ~~O(n)~~   _O(logn)
+Time Complexity : ~~O(n)~~   _O(logn)_
 Refrence Link : [Binary Search](https://www.geeksforgeeks.org/linear-search-vs-binary-search/).
 ![Linear Search Working](https://media.geeksforgeeks.org/wp-content/uploads/binary-3.png)
-Short Form : B<sub>s</sub> 
+Short Form : B<sub>s</sub>
+#
 ADVANTAGES:
 - It has a time complexity of O(log n), which means it's faster than linear search
 - Binary search is straightforward to implement and understand, requiring only basic programming constructs.
@@ -94,7 +95,7 @@ TASK
 > Memory Risk.
  
 #
-Recurrence Relation : This expression uses `\$` to display a dollar sign: $`T(n) = 2T(\frac{n}{2}) +  k `$
+Recurrence Relation : $`T(n) = 2T(\frac{n}{2}) +  k `$
 Algorithm:
 ```
 #include <iostream>
